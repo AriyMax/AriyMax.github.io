@@ -161,7 +161,7 @@ h2 {
 
 .titulo-rojo {
   color: #e53935;
-  font-weight: 700;
+  font-weight: 450;
   font-size: 3em;
   display: block;
   margin-bottom: 5px; /* espacio pequeñito debajo */
@@ -169,7 +169,7 @@ h2 {
 
 .titulo-dorado {
   color: #daa520;
-  font-weight: 500;
+  font-weight: 200;
   font-size: 2em;
   display: block;
 }
