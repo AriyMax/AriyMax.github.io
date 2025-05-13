@@ -16,7 +16,7 @@ body {
   background-color: rgba(10, 24, 52, 0.5);
   padding: 15px 20px;
   display: flex;
-  justify-content: flex-start; /* Alinea los elementos a la izquierda */
+  justify-content: flex-start;
   gap: 20px;
   position: fixed;
   top: 0;
@@ -26,14 +26,14 @@ body {
 
 .navbar a {
   text-decoration: none;
-  color: #000000; /* Color negro para el texto */
+  color: #ffffff; /* mejor contraste */
   font-weight: 600;
   font-size: 1em;
   transition: color 0.3s ease;
 }
 
 .navbar a:hover {
-  color: #3949ab;
+  color: #ffd700;
 }
 
 .header {
@@ -47,14 +47,19 @@ body {
   line-height: 1.2;
 }
 
-.rojo {
-  color: red;
+.titulo-rojo {
+  color: #e53935;
   font-weight: 700;
+  font-size: 3em;
+  display: block;
+  margin-bottom: 5px;
 }
 
-.negro {
-  color: #000;
-  font-weight: 700;
+.titulo-dorado {
+  color: #daa520;
+  font-weight: 400;
+  font-size: 2em;
+  display: block;
 }
 
 .intro {
@@ -78,7 +83,7 @@ h2 {
   flex-wrap: wrap;
 }
 
-.imagen-personaje, .imagen-libro {
+.imagen-libro {
   width: 300px;
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.2);
@@ -156,21 +161,6 @@ h2 {
   font-size: 0.9em;
 }
 
-.titulo-rojo {
-  color: #e53935;
-  font-weight: 250;
-  font-size: 3em;
-  display: block;
-  margin-bottom: 5px; /* espacio pequeñito debajo */
-}
-
-.titulo-dorado {
-  color: #daa520;
-  font-weight: 100;
-  font-size: 2em;
-  display: block;
-}
-
 .seccion-flex {
   display: flex;
   flex-wrap: wrap;
@@ -196,7 +186,6 @@ h2 {
   line-height: 1.6;
 }
 
-/* Para invertir orden en sección materia interestelar */
 .reverse {
   flex-direction: row-reverse;
 }
@@ -211,3 +200,32 @@ h2 {
   padding: 50px 20px;
   width: 100%;
 }
+
+/* Responsividad para pantallas pequeñas */
+@media (max-width: 600px) {
+  .header h1 {
+    font-size: 2.5em;
+  }
+
+  .titulo-rojo {
+    font-size: 2.2em;
+  }
+
+  .titulo-dorado {
+    font-size: 1.6em;
+  }
+
+  .intro {
+    font-size: 1.1em;
+  }
+
+  .seccion-flex .texto {
+    font-size: 1em;
+  }
+
+  .navbar {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}
+
