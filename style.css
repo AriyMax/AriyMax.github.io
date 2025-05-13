@@ -8,12 +8,12 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #ffffff;
+  background-color: #ffffff; /* Fondo blanco para el cuerpo */
   color: #333;
 }
 
 .navbar {
-  background-color: rgba(10, 24, 52, 0.5);
+  background-color: rgba(10, 24, 52, 0.5); /* Fondo para la barra de navegación */
   padding: 15px 20px;
   display: flex;
   justify-content: flex-start;
@@ -157,7 +157,7 @@ h2 {
 .footer {
   text-align: center;
   padding: 30px;
-  background-color: rgba(10, 24, 52, 0.5);
+  background-color: rgba(10, 24, 52, 0.5); /* Fondo para el footer */
   font-size: 0.9em;
 }
 
@@ -179,7 +179,7 @@ h2 {
 
 .seccion-flex .texto {
   flex: 1;
-  color: #fff;
+  color: #000; /* Asegúrate de que el texto sea visible sobre el fondo blanco */
   font-size: 1.2em;
   line-height: 1.6;
 }
@@ -190,7 +190,7 @@ h2 {
 
 .seccion-flex h2 {
   font-size: 2em;
-  color: #ffd700;
+  color: #000000; /* Asegúrate de que el texto sea visible sobre el fondo blanco */
   margin-bottom: 15px;
 }
 
@@ -219,6 +219,7 @@ h2 {
 
   .seccion-flex .texto {
     font-size: 1em;
+    color: #000; /* Asegúrate de que el texto sea visible sobre el fondo blanco */
   }
 
   .navbar {
@@ -226,4 +227,3 @@ h2 {
     gap: 10px;
   }
 }
-
