@@ -158,3 +158,19 @@ h2 {
   background-color: rgba(63, 81, 181, 0.1);
   font-size: 0.9em;
 }
+
+.titulo-rojo {
+  color: #e53935;
+  font-weight: 700;
+  font-size: 3em;
+  display: block;
+  margin-bottom: 5px; /* espacio pequeñito debajo */
+}
+
+.titulo-dorado {
+  color: #daa520;
+  font-weight: 500;
+  font-size: 2em;
+  display: block;
+}
+
