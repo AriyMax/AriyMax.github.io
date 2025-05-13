@@ -119,6 +119,23 @@ h2 {
   border-radius: 8px;
 }
 
+.fila {
+  display: flex;
+  align-items: center; /* Alinea el texto y la imagen al centro verticalmente */
+  justify-content: flex-start; /* Alinea el contenido desde el principio */
+  gap: 30px; /* Espacio entre la imagen y el texto */
+}
+
+.img-personaje {
+  max-width: 40%; /* Ajusta el tamaño de la imagen */
+  height: auto; /* Mantiene la proporción de la imagen */
+  border-radius: 8px;
+}
+
+.fila p {
+  flex: 1; /* Hace que el párrafo ocupe el espacio restante */
+}
+
 /* Materia Interestelar */
 .materia-interestelar {
   background: #ede7f6;
