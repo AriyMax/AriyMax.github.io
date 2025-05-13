@@ -13,9 +13,10 @@ body {
 }
 
 .navbar {
-  background-color: rgba(26, 35, 126, 0.7);
+  background-color: rgba(10, 24, 52, 0.5);
   padding: 15px 20px;
   display: flex;
+  justify-content: flex-start; /* Alinea los elementos a la izquierda */
   gap: 20px;
   position: fixed;
   top: 0;
@@ -24,13 +25,15 @@ body {
 }
 
 .navbar a {
-  color: #fff;
   text-decoration: none;
+  color: #000000; /* Color negro para el texto */
   font-weight: 600;
+  font-size: 1em;
+  transition: color 0.3s ease;
 }
 
 .navbar a:hover {
-  text-decoration: underline;
+  color: #3949ab;
 }
 
 .header {
@@ -61,7 +64,7 @@ body {
 }
 
 .seccion {
-  background-color: rgba(26, 35, 126, 0.7);
+  background-color: rgba(10, 24, 52, 0.4);
   padding: 50px 20px;
   width: 100%;
 }
