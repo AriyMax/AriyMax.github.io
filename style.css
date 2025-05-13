@@ -173,26 +173,36 @@ h2 {
 
 .seccion-flex {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  gap: 30px;
+  justify-content: space-between;
   padding: 40px 20px;
+  gap: 30px;
+  background-color: rgba(26, 35, 126, 0.5);
+  border-radius: 12px;
 }
 
 .seccion-flex img {
-  max-width: 45%;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  width: 45%;
+  max-width: 500px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
 .seccion-flex .texto {
   flex: 1;
   color: #fff;
-  font-size: 1.1em;
+  font-size: 1.2em;
   line-height: 1.6;
 }
 
-/* Para invertir el orden en la sección materia-interestelar */
+/* Para invertir orden en sección materia interestelar */
 .reverse {
   flex-direction: row-reverse;
 }
 
+.seccion-flex h2 {
+  font-size: 2em;
+  color: #ffd700;
+  margin-bottom: 15px;
+}
