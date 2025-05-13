@@ -227,3 +227,43 @@ h2 {
     gap: 10px;
   }
 }
+
+¡Claro! Aquí tienes el código HTML para agregar esa sección justo antes del footer y después de la sección de contacto:
+
+HTML
+
+  </section>
+
+  <section class="seccion-final">
+    <img src="final.png" alt="Imagen Final" style="width: 100%; display: block;">
+  </section>
+
+  <footer class="footer">
+    <p> Ilustraciones por Jan C. Fuentes</p>
+    <p> Todos los derechos reservados</p>
+    <p>&copy; Ari y Max entre las estrellas 2025</p>
+  </footer>
+
+</body>
+</html>
+He añadido una nueva sección con la clase seccion-final que contiene una imagen:
+
+<section class="seccion-final">: Este es el contenedor de la imagen. Le he dado la clase seccion-final por si quieres aplicarle estilos específicos en tu CSS más adelante.
+<img src="final.png" alt="Imagen Final" style="width: 100%; display: block;">: Esta es la etiqueta de la imagen.
+src="final.png": Asegúrate de que la ruta a tu imagen final.png sea correcta. Si la imagen está en la misma carpeta que tu archivo HTML, esta ruta funcionará. Si está en otra carpeta, tendrás que ajustar la ruta en consecuencia (por ejemplo, images/final.png).
+alt="Imagen Final": Este texto alternativo es importante para la accesibilidad. Describe brevemente el contenido de la imagen.
+style="width: 100%; display: block;": He añadido estilos en línea básicos para que la imagen ocupe todo el ancho de su contenedor (section) y se comporte como un elemento de bloque (evitando que otros elementos floten a su lado). Puedes mover estos estilos a tu archivo style.css si prefieres tener todo el CSS en un solo lugar.
+Si prefieres tener los estilos en tu style.css, puedes hacer lo siguiente:
+
+En tu archivo style.css, añade estas reglas:
+
+CSS
+
+.seccion-final {
+  padding: 20px; /* O el espaciado que desees */
+}
+
+.seccion-final img {
+  width: 100%;
+  display: block;
+}
