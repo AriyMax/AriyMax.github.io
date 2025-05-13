@@ -10,7 +10,6 @@
 
   <!-- Menú de navegación -->
   <div class="navbar">
-    <a href="#el-libro">El Libro</a>
     <a href="#personajes">Personajes</a>
     <a href="#materia-interestelar">Materia Interestelar</a>
     <a href="#autores">Autores</a>
@@ -18,85 +17,69 @@
   </div>
 
   <header class="header">
-    <h1>
-      <span class="titulo-principal">Ari y Max</span><br>
-      <span class="subtitulo">entre las estrellas</span>
-    </h1>
-    <p class="intro">
-      Prepárate para despegar hacia una aventura donde la ciencia, la imaginación y las emociones se encuentran.
-    </p>
+    <h1><span class="titulo-azul">Ari y Max</span><br><span class="titulo-morado">entre las estrellas</span></h1>
+    <p class="intro">Prepárate para despegar hacia una aventura donde la ciencia, la imaginación y las emociones se encuentran.</p>
   </header>
 
   <section id="el-libro" class="el-libro">
-    <div class="contenedor">
-      <h2>El Libro</h2>
-      <div class="libro-imgs">
-        <img src="ruta-a-imagen-libro1.jpg" alt="Portada libro tapa blanca" />
-        <img src="ruta-a-imagen-libro2.jpg" alt="Versión ebook" />
-      </div>
-      <p class="libro-caption">
-        Consíguelo en tapa blanca o en la versión ebook en 
-        <a href="https://www.amazon.com" target="_blank">Amazon</a>.
-      </p>
+    <h2>El Libro</h2>
+    <div class="libro-contenedor">
+      <img src="ruta-a-libro1.jpg" alt="Libro tapa blanca" class="libro-img">
+      <img src="ruta-a-libro2.jpg" alt="Versión ebook" class="libro-img">
     </div>
+    <p class="libro-caption">Consíguelo en tapa blanca o en la versión ebook en <a href="https://amazon.com" target="_blank">Amazon</a>.</p>
   </section>
 
   <section id="personajes" class="personajes">
-    <div class="contenedor">
-      <h2>Conoce a los personajes</h2>
+    <h2>Conoce a los personajes</h2>
+    <div class="personajes-flex">
       <img src="ruta-a-tu-imagen-personajes.jpg" alt="Ari y Max" class="personajes-img" />
-      <p>
-        Acompaña a Ari, una niña curiosa y valiente, y a Max, su fiel compañero de cuatro patas, a una aventura en donde lo cotidiano se convierte en extraordinario.
-      </p>
+      <p>Acompaña a Ari, una niña curiosa y valiente, y a Max, su fiel compañero de cuatro patas, a una aventura donde lo cotidiano se convierte en extraordinario.</p>
     </div>
   </section>
 
   <section id="materia-interestelar" class="materia-interestelar">
-    <div class="contenedor">
-      <h2>Conoce el ciclo de materia interestelar</h2>
-      <p>
-        ¡El universo recicla de manera asombrosa! Las estrellas nacen en vastas nubes de gas y polvo...
-        <br><br>
-        "Somos polvo de estrellas" — Carl Sagan
-      </p>
+    <h2>Conoce el ciclo de materia interestelar</h2>
+    <div class="materia-flex">
+      <p>¡El universo recicla de manera asombrosa! Las estrellas nacen en vastas nubes de gas y polvo, brillan por millones de años y, al morir, devuelven su materia al espacio interestelar para formar nuevas estrellas, planetas y vida.<br><br>"Somos polvo de estrellas" — Carl Sagan</p>
+      <img src="ruta-a-imagen-materia.jpg" alt="Materia interestelar" class="materia-img" />
     </div>
   </section>
 
   <section id="autores" class="autores">
-    <div class="contenedor">
-      <h2>Conoce a los autores</h2>
+    <h2>Conoce a los autores</h2>
+    <div class="autores-flex">
       <div class="autor">
-        <img src="ruta-a-foto-autor1.jpg" alt="Autor 1" class="autor-img" />
+        <img src="ruta-a-foto-autor1.jpg" alt="Eva Méndez" class="autor-img" />
         <p>Eva Méndez Robayo</p>
-        <p>Parrafo de presentación del autor 1.</p>
+        <p>Química y divulgadora científica apasionada por el cielo nocturno y las estrellas.</p>
       </div>
       <div class="autor">
-        <img src="ruta-a-foto-autor2.jpg" alt="Autor 2" class="autor-img" />
+        <img src="ruta-a-foto-autor2.jpg" alt="Santiago Vargas" class="autor-img" />
         <p>Santiago Vargas Domínguez</p>
-        <p>Parrafo de presentación del autor 2.</p>
+        <p>Astrofísico dedicado a explorar el Sol y compartir la ciencia con todos.</p>
       </div>
     </div>
   </section>
 
   <section id="contacto" class="contacto">
-    <div class="contenedor">
-      <h2>Para reservar un ejemplar o agendar charlas y talleres, contáctanos.</h2>
-      <form action="https://formsubmit.co/ariymaxentrelasestrellas@gmail.com" method="POST" class="contact-form">
-        <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_next" value="https://ariymax.github.io/ariymax/gracias.html">
+    <h2>Contáctanos</h2>
+    <p>Para reservar un ejemplar del libro o agendar charlas y talleres interactivos en colegios, hospitales, fundaciones u otros espacios educativos y comunitarios.</p>
+    <form action="https://formsubmit.co/ariymaxentrelasestrellas@gmail.com" method="POST" class="contact-form">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="https://ariymax.github.io/ariymax/gracias.html">
 
-        <label for="nombre">Nombre:</label><br />
-        <input type="text" id="nombre" name="nombre" required /><br />
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
 
-        <label for="email">Correo electrónico:</label><br />
-        <input type="email" id="email" name="email" required /><br />
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" required>
 
-        <label for="mensaje">Mensaje:</label><br />
-        <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br />
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
 
-        <button type="submit">Enviar</button>
-      </form>
-    </div>
+      <button type="submit">Enviar</button>
+    </form>
   </section>
 
   <footer class="footer">
