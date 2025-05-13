@@ -13,7 +13,7 @@ body {
 }
 
 .navbar {
-  background-color: rgba(128, 128, 128, 0.5);
+  background-color: rgba(26, 35, 126, 0.7);
   padding: 15px 20px;
   display: flex;
   gap: 20px;
@@ -61,7 +61,7 @@ body {
 }
 
 .seccion {
-  background-color: rgba(63, 81, 181, 0.1);
+  background-color: rgba(26, 35, 126, 0.7);
   padding: 50px 20px;
   width: 100%;
 }
