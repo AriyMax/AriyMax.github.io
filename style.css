@@ -1,7 +1,5 @@
-/* Fuentes */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
-/* Estilos generales */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -12,83 +10,118 @@ body {
   font-family: 'Poppins', sans-serif;
   background-color: #ffffff;
   color: #333;
-  line-height: 1.6;
-  padding: 0;
 }
 
-/* Menú de navegación */
 .navbar {
+  background-color: rgba(128, 128, 128, 0.5);
+  padding: 15px 20px;
+  display: flex;
+  gap: 20px;
   position: fixed;
   top: 0;
-  left: 0;
   width: 100%;
-  background-color: rgba(128, 128, 128, 0.5); /* Gris transparente */
   z-index: 1000;
-  padding: 10px;
 }
 
 .navbar a {
+  color: #fff;
   text-decoration: none;
-  color: white;
   font-weight: 600;
-  margin-left: 20px;
-  font-size: 1.2em;
-  transition: color 0.3s ease;
 }
 
 .navbar a:hover {
-  color: #3949ab;
+  text-decoration: underline;
 }
 
-/* Estilo del header */
-header {
+.header {
   text-align: center;
-  padding: 60px 20px 30px;
-  color: #5e35b1;
+  padding: 120px 20px 50px;
 }
 
-header h1 {
-  font-size: 3em;
-  margin-bottom: 15px;
+.header h1 {
+  font-size: 3.5em;
+  margin-bottom: 20px;
+  line-height: 1.2;
 }
 
-header .rojo {
+.rojo {
   color: red;
+  font-weight: 700;
 }
 
-header .negro {
-  color: black;
-  font-size: 0.8em;
+.negro {
+  color: #000;
+  font-weight: 700;
 }
 
-/* Secciones */
+.intro {
+  font-size: 1.3em;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
 .seccion {
-  background-color: rgba(63, 81, 181, 0.1); /* Morado-azul transparente */
-  padding: 30px;
-  border-radius: 12px;
-  margin-bottom: 60px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  background-color: rgba(63, 81, 181, 0.1);
+  padding: 50px 20px;
   width: 100%;
 }
 
-/* Estructura de las filas */
+h2 {
+  font-size: 2em;
+  color: #3949ab;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
 .fila {
   display: flex;
   align-items: center;
   gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.fila p {
-  flex: 1;
-}
-
-.img-personaje, .autor-img {
-  max-width: 45%; /* Ajusta el tamaño de las imágenes */
-  height: auto;
+.imagen-personaje, .imagen-libro {
+  width: 300px;
   border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
 }
 
-/* Formulario de contacto */
+.caption {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.1em;
+}
+
+.caption a {
+  color: #5e35b1;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.caption a:hover {
+  text-decoration: underline;
+}
+
+.autores-fila {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.autor {
+  text-align: center;
+  max-width: 250px;
+}
+
+.autor-img {
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  margin-bottom: 10px;
+}
+
 .contact-form {
   max-width: 500px;
   margin: 0 auto;
@@ -99,8 +132,6 @@ header .negro {
   width: 100%;
   padding: 12px;
   margin-bottom: 20px;
-  font-family: 'Poppins', sans-serif;
-  font-size: 1em;
   border: 1px solid #b39ddb;
   border-radius: 6px;
 }
@@ -121,12 +152,9 @@ header .negro {
   background-color: #4527a0;
 }
 
-/* Pie de página */
-footer {
+.footer {
   text-align: center;
   padding: 30px;
-  background-color: #f3f0ff;
-  border-top: 1px solid #d1c4e9;
+  background-color: rgba(63, 81, 181, 0.1);
   font-size: 0.9em;
-  margin-top: 60px;
 }
