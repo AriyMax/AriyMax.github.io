@@ -179,7 +179,7 @@ h2 {
 
 .seccion-flex .texto {
   flex: 1;
-  color: #000; /* Asegúrate de que el texto sea visible sobre el fondo blanco */
+  color: #000000; /* Asegúrate de que el texto sea visible sobre el fondo blanco */
   font-size: 1.2em;
   line-height: 1.6;
 }
@@ -219,7 +219,7 @@ h2 {
 
   .seccion-flex .texto {
     font-size: 1em;
-    color: #000; /* Asegúrate de que el texto sea visible sobre el fondo blanco */
+    color: #000000; /* Asegúrate de que el texto sea visible sobre el fondo blanco */
   }
 
   .navbar {
