@@ -8,8 +8,8 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #000000; /* Fondo blanco para el cuerpo */
-  color: #333;
+  background-color: #ffffff; /* Fondo blanco para el cuerpo */
+  color: #daa520;
 }
 
 .navbar {
@@ -18,7 +18,7 @@ body {
   display: flex;
   justify-content: flex-start;
   gap: 20px;
-  position: fixed;
+  position: right;
   top: 0;
   width: 100%;
   z-index: 1000;
@@ -33,7 +33,7 @@ body {
 }
 
 .navbar a:hover {
-  color: #ffd700;
+  color: #daa520;
 }
 
 .header {
@@ -139,7 +139,7 @@ h2 {
 }
 
 .contact-form button {
-  background-color: #5e35b1;
+  background-color: rgba(10, 24, 52, 0.5);
   color: white;
   padding: 12px 24px;
   border: none;
