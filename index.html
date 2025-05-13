@@ -7,6 +7,15 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+
+  <!-- Menú de navegación -->
+  <div class="navbar">
+    <a href="#personajes">Personajes</a>
+    <a href="#materia-interestelar">Materia Interestelar</a>
+    <a href="#autores">Autores</a>
+    <a href="#contacto">Contacto</a>
+  </div>
+
   <header class="header">
     <h1>Ari y Max entre las estrellas</h1>
     <p class="intro">
@@ -14,7 +23,7 @@
     </p>
   </header>
 
-  <section class="personajes">
+  <section id="personajes" class="personajes">
     <h2>Conoce a los personajes</h2>
     <img src="ruta-a-tu-imagen-personajes.jpg" alt="Ari y Max" class="personajes-img" />
     <p>
@@ -22,7 +31,14 @@
     </p>
   </section>
 
-  <section class="autores">
+  <section id="materia-interestelar" class="materia-interestelar">
+    <h2>Conoce el ciclo de materia interestelar</h2>
+    <p>
+      ¡El universo recicla! Las estrellas nacen en nubes de gas y polvo, viven aventuras brillantes y, cuando terminan su vida, explotan como supernovas. Así, devuelven sus ingredientes al espacio, donde nuevas estrellas y planetas pueden formarse. ¡Es como un cuento cósmico que nunca termina!
+    </p>
+  </section>
+
+  <section id="autores" class="autores">
     <h2>Conoce a los autores</h2>
     <div class="autor">
       <img src="ruta-a-foto-autor1.jpg" alt="Autor 1" class="autor-img" />
@@ -36,14 +52,7 @@
     </div>
   </section>
 
-  <section class="materia-interestelar">
-    <h2>Conoce el ciclo de materia interestelar</h2>
-    <p>
-      ¡El universo recicla! Las estrellas nacen en nubes de gas y polvo, viven aventuras brillantes y, cuando terminan su vida, explotan como supernovas. Así, devuelven sus ingredientes al espacio, donde nuevas estrellas y planetas pueden formarse. ¡Es como un cuento cósmico que nunca termina!
-    </p>
-  </section>
-
-  <section class="contacto">
+  <section id="contacto" class="contacto">
     <h2>Para apartar tu libro o agendar charlas en colegios, hospitales, etc., contáctanos</h2>
     <form action="https://formsubmit.co/ariymaxentrelasestrellas@gmail.com.com" method="POST" class="contact-form">
       <input type="hidden" name="_captcha" value="false">
@@ -65,5 +74,6 @@
   <footer class="footer">
     <p>&copy; 2025 Ari y Max</p>
   </footer>
+
 </body>
 </html>
