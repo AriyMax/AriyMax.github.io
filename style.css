@@ -177,3 +177,28 @@ h2 {
   display: block;
 }
 
+.seccion-flex {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 40px 20px;
+}
+
+.seccion-flex img {
+  max-width: 45%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.seccion-flex .texto {
+  flex: 1;
+  color: #fff;
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+/* Para invertir el orden en la sección materia-interestelar */
+.reverse {
+  flex-direction: row-reverse;
+}
+
