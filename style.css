@@ -64,7 +64,7 @@ h2 {
   text-align: center;
 }
 
-.personajes, .autores, .contacto, .materia-interestelar {
+.personajes, .autores, .contacto, .materia-interestelar, .el-libro {
   background-color: #f3f0ff;
   border: 1px solid #d1c4e9;
   padding: 30px;
@@ -73,7 +73,7 @@ h2 {
   box-shadow: 0 4px 8px rgba(0,0,0,0.05);
 }
 
-.personajes-img, .autor-img {
+.personajes-img, .autor-img, .libro-img {
   display: block;
   max-width: 300px;
   width: 100%;
@@ -126,4 +126,32 @@ footer {
   border-top: 1px solid #d1c4e9;
   font-size: 0.9em;
   margin-top: 60px;
+}
+
+/* Nueva sección El Libro */
+.libro-contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.libro-item {
+  flex: 1 1 300px;
+  max-width: 400px;
+  text-align: center;
+}
+
+.libro-frase {
+  margin-top: 15px;
+  font-size: 1.1em;
+}
+
+.libro-frase a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.libro-frase a:hover {
+  text-decoration: underline;
 }
