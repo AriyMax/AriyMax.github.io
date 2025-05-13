@@ -10,6 +10,7 @@
 
   <!-- Menú de navegación -->
   <div class="navbar">
+    <a href="#el-libro">El Libro</a>
     <a href="#personajes">Personajes</a>
     <a href="#materia-interestelar">Materia Interestelar</a>
     <a href="#autores">Autores</a>
@@ -17,80 +18,85 @@
   </div>
 
   <header class="header">
-    <h1>Ari y Max entre las estrellas</h1>
+    <h1>
+      <span class="titulo-principal">Ari y Max</span><br>
+      <span class="subtitulo">entre las estrellas</span>
+    </h1>
     <p class="intro">
       Prepárate para despegar hacia una aventura donde la ciencia, la imaginación y las emociones se encuentran.
     </p>
   </header>
 
   <section id="el-libro" class="el-libro">
-  <h2>El Libro</h2>
-  <div class="libro-contenedor">
-    <div class="libro-item">
-      <img src="portada.jpg" alt="Portada del libro Ari y Max en tapa blanca" class="libro-img" />
-    </div>
-    <div class="libro-item">
-      <img src="contraportada.jpg" alt="Versión digital de Ari y Max en tablet o lector ebook" class="libro-img" />
-      <p class="libro-frase">
-        Consíguelo en tapa blanda o en la versión ebook en 
-        <a href="https://www.amazon.com/" target="_blank">Amazon</a>.
+    <div class="contenedor">
+      <h2>El Libro</h2>
+      <div class="libro-imgs">
+        <img src="ruta-a-imagen-libro1.jpg" alt="Portada libro tapa blanca" />
+        <img src="ruta-a-imagen-libro2.jpg" alt="Versión ebook" />
+      </div>
+      <p class="libro-caption">
+        Consíguelo en tapa blanca o en la versión ebook en 
+        <a href="https://www.amazon.com" target="_blank">Amazon</a>.
       </p>
     </div>
-  </div>
-</section>
+  </section>
 
   <section id="personajes" class="personajes">
-    <h2>Conoce a los personajes</h2>
-    <img src="ruta-a-tu-imagen-personajes.jpg" alt="Ari y Max" class="personajes-img" />
-    <p>
-      Acompaña a Ari, una niña curiosa y valiente, y a Max, su fiel compañero de cuatro patas, a una aventura en donde lo cotidiano se convierte en extraordinario.
-    </p>
+    <div class="contenedor">
+      <h2>Conoce a los personajes</h2>
+      <img src="ruta-a-tu-imagen-personajes.jpg" alt="Ari y Max" class="personajes-img" />
+      <p>
+        Acompaña a Ari, una niña curiosa y valiente, y a Max, su fiel compañero de cuatro patas, a una aventura en donde lo cotidiano se convierte en extraordinario.
+      </p>
+    </div>
   </section>
 
   <section id="materia-interestelar" class="materia-interestelar">
-    <h2>Conoce el ciclo de materia interestelar</h2>
-    <p>
-      ¡El universo recicla de manera asombrosa! Las estrellas nacen en vastas nubes de gas y polvo. A lo largo de su vida, las estrellas fusionan elementos simples, como el H y el He, en mucho más complejos, como el O y N. Cuando llegan al final de su ciclo, algunas de ellas explotan en impresionantes supernovas, liberando una gran cantidad de material al espacio.
-
-      Este "reciclaje" cósmico es esencial para la creación de nuevas estrellas, planetas y hasta la vida misma. Los elementos que alguna vez formaron una estrella o un planeta se dispersan por el universo, nutriendo futuras generaciones de cuerpos celestes. Es un ciclo que perdura en el tiempo.
-
-      Los elementos que conforman nuestro cuerpo, los átomos que nos dan vida, se forjaron en el interior de antiguas estrellas. En cada uno de nosotros, el cosmos deja su huella.
-
-      "Somos polvo de estrellas" Carl Sagan
-    </p>
+    <div class="contenedor">
+      <h2>Conoce el ciclo de materia interestelar</h2>
+      <p>
+        ¡El universo recicla de manera asombrosa! Las estrellas nacen en vastas nubes de gas y polvo...
+        <br><br>
+        "Somos polvo de estrellas" — Carl Sagan
+      </p>
+    </div>
   </section>
 
   <section id="autores" class="autores">
-    <h2>Conoce a los autores</h2>
-    <div class="autor">
-      <img src="ruta-a-foto-autor1.jpg" alt="Autor 1" class="autor-img" />
-      <p>Eva Méndez Robayo</p>
-      <p>Parrafo de presentación del autor 1.</p>
-    </div>
-    <div class="autor">
-      <img src="ruta-a-foto-autor2.jpg" alt="Autor 2" class="autor-img" />
-      <p>Santiago Vargas Domínguez</p>
-      <p>Parrafo de presentación del autor 2.</p>
+    <div class="contenedor">
+      <h2>Conoce a los autores</h2>
+      <div class="autor">
+        <img src="ruta-a-foto-autor1.jpg" alt="Autor 1" class="autor-img" />
+        <p>Eva Méndez Robayo</p>
+        <p>Parrafo de presentación del autor 1.</p>
+      </div>
+      <div class="autor">
+        <img src="ruta-a-foto-autor2.jpg" alt="Autor 2" class="autor-img" />
+        <p>Santiago Vargas Domínguez</p>
+        <p>Parrafo de presentación del autor 2.</p>
+      </div>
     </div>
   </section>
 
   <section id="contacto" class="contacto">
-    <h2>Para reservar un ejemplar del libro o para agendar charlas y talleres interactivos en colegios, hospitales, fundaciones u otros espacios educativos y comunitarios, no dudes en ponerte en contacto con nosotros.</h2>
-    <form action="https://formsubmit.co/ariymaxentrelasestrellas@gmail.com.com" method="POST" class="contact-form">
-      <input type="hidden" name="_captcha" value="false">
-      <input type="hidden" name="_next" value="https://ariymax.github.io/ariymax/gracias.html">
+    <div class="contenedor">
+      <h2>Para reservar un ejemplar o agendar charlas y talleres, contáctanos.</h2>
+      <form action="https://formsubmit.co/ariymaxentrelasestrellas@gmail.com" method="POST" class="contact-form">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://ariymax.github.io/ariymax/gracias.html">
 
-      <label for="nombre">Nombre:</label><br />
-      <input type="text" id="nombre" name="nombre" required /><br />
+        <label for="nombre">Nombre:</label><br />
+        <input type="text" id="nombre" name="nombre" required /><br />
 
-      <label for="email">Correo electrónico:</label><br />
-      <input type="email" id="email" name="email" required /><br />
+        <label for="email">Correo electrónico:</label><br />
+        <input type="email" id="email" name="email" required /><br />
 
-      <label for="mensaje">Mensaje:</label><br />
-      <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br />
+        <label for="mensaje">Mensaje:</label><br />
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br />
 
-      <button type="submit">Enviar</button>
-    </form>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
   </section>
 
   <footer class="footer">
